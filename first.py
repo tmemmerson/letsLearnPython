@@ -23,6 +23,8 @@ list1=list(range(1,10))
 """ gives output of 1,2,3,4,5,6,7,8,9 """
 list2=list(range(1,10,2)) 
 """ gives output of 1,3,5,7,9 because the 3rd arguement is the step """ 
-student_grades=[1,2,3]
 
 print(list1,list2)
+
+student_grades=[9.1,8.8,7.5]
+""" dir(datatype) provides list of all the things you can do with that type """
