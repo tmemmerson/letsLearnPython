@@ -26,5 +26,20 @@ list2=list(range(1,10,2))
 
 print(list1,list2)
 
+""" dir(datatype) provides list of all the methods you can use with that type """
+
 student_grades=[9.1,8.8,7.5]
-""" dir(datatype) provides list of all the things you can do with that type """
+
+gradeSum=sum(student_grades)
+print(gradeSum)
+length=len(student_grades)
+mean=gradeSum/length
+print(mean)
+
+monday_temperatures = [9.1, 8.8, 7.5]
+""" this is a list """
+student_grades2={"Marry": 9.1, "Sim": 8.8, "John": 7.5}
+""" this is a dictionary """
+
+""" tuples are immutable
+lists are mutable """
